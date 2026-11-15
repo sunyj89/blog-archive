@@ -1,6 +1,85 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-11-15-01",
+    "date": "2026-11-14",
+    "person": "Cursor",
+    "handle": "cursor_ai",
+    "summary": "Cursor 发布 10 月安全事件的调查更新。攻击者拿到签发给 Fireworks 的密钥，复制了有限的非 Privacy Mode traces，不到 0.01% 用户的 API 凭证被暴露，并进入部分内部 SaaS。扩展市场缓存中的恶意 Claude Code 扩展（2.1.312 / 2.1.313）在 10月29日存在约 11 小时，最多约 5,000 名用户可能受影响；仅卸载可能不够。绝大多数用户未受影响，受影响者已直接通知。Grok Bot 及其他 SpaceX SI 产品、生产系统与正式更新未受波及。最后一次攻击活动在 11月1日，官方认为事件已受控。",
+    "keywords": [
+      "Cursor",
+      "安全事件",
+      "Fireworks",
+      "Claude Code",
+      "Privacy Mode",
+      "Grok Bot"
+    ],
+    "url": "https://x.com/cursor_ai/status/2121411147714970092",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-15-02",
+    "date": "2026-11-15",
+    "person": "grok",
+    "handle": "grok",
+    "summary": "Grok 宣布把更多 SpaceXAI 产品收进同一套 Grok 体验。@imagine 称图像与视频生成现已可在 Grok 中直接使用。官方回复补充：这是把原来的独立 Imagine 页签收进主聊天的图像/视频模式，工具和模型不变，Library 保留。这是 Grok 产品本身的整合，不是 Grok Bot 的新能力。",
+    "keywords": [
+      "Grok",
+      "Imagine",
+      "图像生成",
+      "视频生成",
+      "SpaceXAI"
+    ],
+    "url": "https://x.com/grok/status/2121673185540378797",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-15-03",
+    "date": "2026-11-14",
+    "person": "Aidan Clark",
+    "handle": "_aidan_clark_",
+    "summary": "OpenAI 研究员 Aidan Clark 表示，公司最大的对外沟通失误之一，是没把与 Anthropic 在「把对齐工作交给 AI（handoff）」上的分歧讲清楚。他引用的观察称，已有 OpenAI 员工表示 handoff 不是公司的计划。这是个人言论，不是新的政策发布。",
+    "keywords": [
+      "OpenAI",
+      "Anthropic",
+      "对齐",
+      "handoff",
+      "沟通"
+    ],
+    "url": "https://x.com/_aidan_clark_/status/2121428311096406448",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-15-04",
+    "date": "2026-11-14",
+    "person": "Romain Huet",
+    "handle": "romainhuet",
+    "summary": "Romain Huet 欢迎 Codex Ambassadors 中的新任区域负责人，并感谢各地组织线下活动的人。这是社区项目动态，不是新功能发布。",
+    "keywords": [
+      "Codex",
+      "Ambassadors",
+      "区域负责人",
+      "社区"
+    ],
+    "url": "https://x.com/romainhuet/status/2121416122637615319",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-15-05",
+    "date": "2026-11-15",
+    "person": "mattyp",
+    "handle": "mattyp",
+    "summary": "Matt Palmer 推荐 Grok Bot 核心成员 Lauren Tan 的 AIE 演讲录像 *All Code Is Slop (Except Mine)*，介绍 Grok Bot 团队如何在保证质量的前提下快速交付。卡片摘要提到一个月约 11,000 个 pull request，回退率约 0.5%。",
+    "keywords": [
+      "Grok Bot",
+      "Lauren Tan",
+      "工程效率",
+      "AIE"
+    ],
+    "url": "https://x.com/mattyp/status/2121695731136577628",
+    "track": "cursor"
+  },
+  {
     "id": "2026-11-14-01",
     "date": "2026-11-14",
     "person": "ChatGPT",
