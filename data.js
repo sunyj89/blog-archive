@@ -1,6 +1,69 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-11-16-01",
+    "date": "2026-11-16",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "OpenAI 宣布开设科学博客，首篇文章是访问科学家、加州大学圣塔芭芭拉分校粒子理论组负责人 Nathaniel Craig 的来稿。他与 GPT-6 Astra 合作，在 10 月预印本《A gauge-invariant measure for lattice chiral fermions》中提出粒子物理标准模型的格点非微扰定义候选方案。Craig 写到，Astra 帮助把已有思路做成构造，并主导了详细证明；这仍是起点而非定论，需要专家审阅，尚不能直接用于实际格点模拟。",
+    "keywords": [
+      "OpenAI",
+      "科学博客",
+      "GPT-6 Astra",
+      "标准模型",
+      "格点",
+      "Nathaniel Craig"
+    ],
+    "url": "https://x.com/OpenAI/status/2122123437141553630",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-16-02",
+    "date": "2026-11-16",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "OpenAI 介绍新开设的科学博客，计划分享研究发现、可复用的方法，以及科学家使用 AI 的第一手经验。文章回顾了近期内部系统在 Navier–Stokes 问题、准黎曼假设等数学结果上的工作，以及与 PerturbAI、Scripps Research 等合作的生物学例子。",
+    "keywords": [
+      "OpenAI",
+      "科学博客",
+      "科学发现"
+    ],
+    "url": "https://openai.com/index/our-new-blog-for-science",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-16-03",
+    "date": "2026-11-15",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "Tibo 代表网络安全团队为 Daybreak 征求反馈，点名模型、Codex 插件、蓝队/红队权限、文档、红队演练和 Defense Factory。这是对 11月13日已报道的 Daybreak 发布的后续征集，不是新的产品发布。",
+    "keywords": [
+      "Daybreak",
+      "Codex",
+      "红队",
+      "Defense Factory",
+      "反馈"
+    ],
+    "url": "https://x.com/thsottiaux/status/2121845965997101118",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-16-04",
+    "date": "2026-11-16",
+    "person": "mattyp",
+    "handle": "mattyp",
+    "summary": "Matt Palmer 提到 Epic Games MegaJam 上有 2,500 多名开发者使用 Grok、Cursor 和 Unreal Engine。他分享的例子是用 Cursor 项目加自托管 runner、在性能较强的开发机上做云端编排；并说再加上 Grok Bot 就能得到一个轻量编排器，还考虑做成视频。",
+    "keywords": [
+      "Grok Bot",
+      "Cursor",
+      "Unreal Engine",
+      "MegaJam",
+      "编排"
+    ],
+    "url": "https://x.com/mattyp/status/2122016027651547485",
+    "track": "cursor"
+  },
+  {
     "id": "2026-11-15-01",
     "date": "2026-11-14",
     "person": "Cursor",
