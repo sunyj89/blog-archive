@@ -1,6 +1,147 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-11-17-01",
+    "date": "2026-11-17",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "OpenAI 宣布 ChatGPT for Healthcare 升级，包括更强的电脑使用智能体、更可靠的临床回答，以及 20 多个新医疗插件。CVS Health、Cigna、Abridge、Ambience 等已用于预授权、转诊、出院计划和患者随访。对 GPT-6 Astra 的评测中，325 项任务里 99% 被评为临床安全，646 次评估中 93% 被医生评为非常或极其有用。",
+    "keywords": [
+      "ChatGPT for Healthcare",
+      "电脑使用智能体",
+      "GPT-6 Astra",
+      "医疗插件",
+      "CVS",
+      "Cigna"
+    ],
+    "url": "https://x.com/OpenAI/status/2122465625109090646",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-17-02",
+    "date": "2026-11-17",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "OpenAI 将 ChatGPT for Academic Researchers 免费项目扩大到最多 20 万名科学家，并提供培训与支持。下一轮申请于 11月23日开放，按先到先得发放 5 万份新补助，每份覆盖申请者及最多两名合作者的 ChatGPT Plus；默认不使用该项目数据训练模型。",
+    "keywords": [
+      "ChatGPT for Academic Researchers",
+      "科学家",
+      "免费访问",
+      "GPT 前沿模型"
+    ],
+    "url": "https://x.com/OpenAI/status/2122377585523126615",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-17-03",
+    "date": "2026-11-17",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "OpenAI Economic Research 团队发布《Science at the Frontier》，分析学术研究者试点中 1,819 名科学家的逾 58 万条科学相关消息，并调查 251 人。受访者估计，不用 AI 完成同等质量工作大约要花 1.9 倍时间；约三分之二的科学家用 ChatGPT 探索研究方向。",
+    "keywords": [
+      "Science at the Frontier",
+      "科学家",
+      "生产力",
+      "ChatGPT"
+    ],
+    "url": "https://x.com/OpenAI/status/2122380010287960095",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-17-04",
+    "date": "2026-11-17",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "OpenAI 宣布与 Apollo Research、METR、Transluce、Goodfire 启动第一阶段嵌入式评估，让外部专家深入内部模型与系统，核查对齐情况和安全防护。四家分工覆盖隐蔽偏离开发者意图、最大强化学习训练中的未对齐行为、训练后评测质量，以及模型内部的可解释性分析。",
+    "keywords": [
+      "embedded assessments",
+      "Apollo Research",
+      "METR",
+      "Transluce",
+      "Goodfire",
+      "对齐"
+    ],
+    "url": "https://x.com/OpenAI/status/2122359930628063248",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-17-05",
+    "date": "2026-11-17",
+    "person": "OpenAI Newsroom",
+    "handle": "OpenAINewsroom",
+    "summary": "OpenAI 向经审核机构通过 API 免费提供新的图像分类器，用于检测虐待儿童材料，包括 AI 生成图像，并与 NCMEC、Tech Coalition、ROOST 合作。同时为 ChatGPT 增加警告（含暂停使用 24 小时等措施），发布开发者指引，并向儿童保护调查人员提供工具与培训。",
+    "keywords": [
+      "儿童安全",
+      "分类器",
+      "ChatGPT 警告",
+      "NCMEC",
+      "开发者指引"
+    ],
+    "url": "https://x.com/OpenAINewsroom/status/2122375519853559954",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-17-06",
+    "date": "2026-11-17",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "Grok Bot 官方账号发布 60 秒短片，展示拉斯维加斯 Sphere 上的赛车主题广告，口号是 “Every driver needs their crew.”。球体画面中出现 Grok Bot 头盔造型，以及标为 Support、Sales、Marketing 的多个 Bot 角色。这是品牌宣传，不是新功能发布。",
+    "keywords": [
+      "Grok Bot",
+      "Las Vegas Sphere",
+      "广告",
+      "crew"
+    ],
+    "url": "https://x.com/bot/status/2122386524297974128",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-17-07",
+    "date": "2026-11-16",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "Tibo 说 Codex 团队可能已经修好长期困扰用户的 “model at capacity” 错误。配图显示 10 月 15 日至 11 月 12 日期间，至少一次对话以容量错误结束的日活用户占比从约 6.82% 的峰值降至 11 月 12 日的 0.085%，并标出数次 Retry-After 相关发布。这不是额度重置。",
+    "keywords": [
+      "Codex",
+      "model at capacity",
+      "容量错误",
+      "Retry-After"
+    ],
+    "url": "https://x.com/thsottiaux/status/2122206990101536852",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-17-08",
+    "date": "2026-11-16",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "LVMH 媒体事业部与 OpenAI 宣布战略合作，向事业部各出版物团队部署 OpenAI 工具和 ChatGPT Enterprise，并增强其新闻内容在 ChatGPT 中的呈现（摘要或摘录、标明来源并链回原文）。官博说明此消息原由 LVMH 媒体事业部发布。",
+    "keywords": [
+      "LVMH",
+      "Les Echos",
+      "Le Parisien",
+      "ChatGPT Enterprise",
+      "媒体合作"
+    ],
+    "url": "https://openai.com/index/lvmh-media-division-partnership",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-17-09",
+    "date": "2026-11-16",
+    "person": "mattyp",
+    "handle": "mattyp",
+    "summary": "Matt Palmer 发布约 6 分半的《What's new in Grok Bot 1.0》讲解视频，章节包括 Team Bot 改进、Bot 加入会议、主动推进、学习改进，以及更聪明更快。他提到视频里有不少彩蛋。这是对已发布的 Grok Bot 1.0 的回顾讲解，不是新的功能发布。",
+    "keywords": [
+      "Grok Bot 1.0",
+      "Team Bot",
+      "会议",
+      "讲解视频"
+    ],
+    "url": "https://x.com/mattyp/status/2122343944889483583",
+    "track": "cursor"
+  },
+  {
     "id": "2026-11-16-01",
     "date": "2026-11-16",
     "person": "OpenAI",
