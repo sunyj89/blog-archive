@@ -1,6 +1,180 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-11-18-01",
+    "date": "2026-11-18",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "OpenAI 发布 GPT-6.2 Astra（最难项目的前沿模型）与 GPT-6.2 Sol（日常高效模型），即日起在 ChatGPT Work 和 Codex 向 Plus、Pro、Enterprise、Edu 用户开放；Pro 200 首次可用 Ultrafast，先从 Sol 开始。API 模型为 gpt-6.2-astra 与 gpt-6.2-sol。Astra 在 Terminal-Bench Science 上比上一代高 9 个百分点、成本不到三分之一，网安评测 ExploitBench Internal Port 提高 22 分；未来三个月 Ultrafast 对 API 和企业用户降价 50%，为 Standard 的 3 倍。",
+    "keywords": [
+      "GPT-6.2 Astra",
+      "GPT-6.2 Sol",
+      "Ultrafast",
+      "Pro 200",
+      "Codex",
+      "ChatGPT Work"
+    ],
+    "url": "https://x.com/OpenAI/status/2122750124543926515",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-18-02",
+    "date": "2026-11-18",
+    "person": "ChatGPT",
+    "handle": "ChatGPT",
+    "summary": "ChatGPT 推出面向销售的新体验，包含 OpenAI 新的 Sales 插件，以及 30 多个新增或增强的合作伙伴插件，可连接 Salesforce、HubSpot、ZoomInfo、Clay、Gong 等工具中的客户上下文，用于准备会面、跟进客户和推进交易。",
+    "keywords": [
+      "ChatGPT for Sales",
+      "Sales 插件",
+      "Salesforce",
+      "HubSpot",
+      "CRM"
+    ],
+    "url": "https://x.com/ChatGPT/status/2122818162995634504",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-18-03",
+    "date": "2026-11-18",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "Grok Bot 介绍 SpaceXSI 会计团队已有 5 个 Bot 全职负责从开户到回款的订单到现金流程，并按员工方式入职、培训和管理。五个 Bot 分别负责开通账户、开票、开票支持、到款核销和催收；常规任务可独立完成，退款等敏感操作需人工批准。",
+    "keywords": [
+      "Grok Bot",
+      "SpaceXSI",
+      "会计",
+      "Provisioning Bot",
+      "订单到回款"
+    ],
+    "url": "https://x.com/bot/status/2122771386456551516",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-18-04",
+    "date": "2026-11-18",
+    "person": "Greg Brockman",
+    "handle": "gdb",
+    "summary": "Greg Brockman 转发 OpenAI 官博，介绍通过 Daybreak 向北约 NCIA 及欧盟 ENISA、法德波国家机构、乌克兰民用基础设施防御方提供网络安全模型，用于发现漏洞、测试修复并保护关键系统。官博称北约此项工作每月使用高达 3000 亿 token，并支持了 2026 年 Crossed Swords 演习中的智能体训练。",
+    "keywords": [
+      "Daybreak",
+      "NATO",
+      "NCIA",
+      "ENISA",
+      "网络防御"
+    ],
+    "url": "https://x.com/gdb/status/2122740752556216515",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-18-05",
+    "date": "2026-11-18",
+    "person": "Greg Brockman",
+    "handle": "gdb",
+    "summary": "Greg Brockman 说，作为 Patch the Planet 的一部分，安全公司 Calif 用 GPT-6 Cyber 发现了 Java 的重大安全漏洞。Calif 将漏洞称为 Java4Shell（CVE-2026-114938），是 OpenJDK Base64 解码器中的内存损坏问题，可导致远程代码执行；Oracle 已于 11月17日发布补丁。",
+    "keywords": [
+      "GPT-6 Cyber",
+      "Java4Shell",
+      "Calif",
+      "Patch the Planet",
+      "OpenJDK"
+    ],
+    "url": "https://x.com/gdb/status/2122819528858161322",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-18-06",
+    "date": "2026-11-18",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "Tibo 说 GPT-6.2 Sol 与 Astra“终于”来了，并把 Ultrafast 扩大到 Pro 200 的 Sol，称 Sol 是他日常首选。他随后补充，这些模型在完成速度、成本和额度能用多久上都非常高效，并配发 Agents’ Last Exam 的分数-成本对比图。这不是额度重置。",
+    "keywords": [
+      "Tibo",
+      "GPT-6.2 Sol",
+      "Ultrafast",
+      "Pro 200",
+      "用量效率"
+    ],
+    "url": "https://x.com/thsottiaux/status/2122753991000133943",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-18-07",
+    "date": "2026-11-18",
+    "person": "Sam Altman",
+    "handle": "sama",
+    "summary": "Sam Altman 宣布 6.2 Sol 与 Astra 已发布，称它们能力强且非常省 token，并特别提到 6.2 Sol Ultrafast 会很好用。他随后说，这些模型虽然很聪明，但在“好用、好协作”上还有工作要做，会把这一点作为后续版本的优先事项。",
+    "keywords": [
+      "Sam Altman",
+      "GPT-6.2",
+      "Ultrafast",
+      "token 效率",
+      "可用性"
+    ],
+    "url": "https://x.com/sama/status/2122798039899263456",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-18-08",
+    "date": "2026-11-18",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "OpenAI 开发者账号宣布更新 API 用量看板，便于更好地跟踪用量和花费、查看速率限制及被限流的请求，并按模型、项目或 API key 排查错误。这是仪表盘改进，不是额度重置。",
+    "keywords": [
+      "API Analytics",
+      "用量看板",
+      "速率限制",
+      "OpenAI API"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2122824859491205152",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-18-09",
+    "date": "2026-11-18",
+    "person": "Boris Power",
+    "handle": "BorisMPower",
+    "summary": "Boris Power 引用 ARC Prize 的验证结果：GPT-6.2 Astra 是首个在 ARC-AGI-3 上拿到 100% 的模型（SOTA）；ARC-AGI-2 为 95.8%（SOTA）。他评论这些模型又强又便宜，处于帕累托前沿。",
+    "keywords": [
+      "GPT-6.2 Astra",
+      "ARC-AGI-3",
+      "ARC Prize",
+      "SOTA"
+    ],
+    "url": "https://x.com/BorisMPower/status/2122845901521830118",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-18-10",
+    "date": "2026-11-18",
+    "person": "Thomas Ricouard",
+    "handle": "Dimillian",
+    "summary": "Thomas Ricouard 用 GPT-6.2 Astra 根据照片和历史平面图重建巴黎圣母院，并从 WebGL 导出到 Unreal Engine 5；随后发布 1:1 巴黎地图演示，可步行和驾车，包含 50 多个三维地标和实时交通，由 150 多个子智能体协作生成。这是能力演示，不是新的产品发布。",
+    "keywords": [
+      "GPT-6.2 Astra",
+      "巴黎圣母院",
+      "巴黎地图",
+      "Unreal Engine",
+      "Codex"
+    ],
+    "url": "https://x.com/Dimillian/status/2122750651998355800",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-18-11",
+    "date": "2026-11-18",
+    "person": "Wojciech Zaremba",
+    "handle": "woj_zaremba",
+    "summary": "Wojciech Zaremba 认为，要支撑高风险的国际 AI 协议，需要能验证芯片位置、是否用于训练、是否用于网络攻击等属性的技术，类似核试验监测。他宣布 OpenAI Foundation 正在招聘 AI Verification 项目主任，负责资助、红队和在数据中心部署相关技术。",
+    "keywords": [
+      "OpenAI Foundation",
+      "AI verification",
+      "红队",
+      "国际协议"
+    ],
+    "url": "https://x.com/woj_zaremba/status/2122753005955232068",
+    "track": "openai"
+  },
+  {
     "id": "2026-11-17-01",
     "date": "2026-11-17",
     "person": "OpenAI",
